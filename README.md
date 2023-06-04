@@ -52,3 +52,14 @@ Real time usage with microphone(do not forget to plug microphone to the PC):
 ./asr_app -m ../whisper.cpp/models/ggml-tiny.en.bin
 ```
 You will see ASR results in the asr_app screen and full result (text + sentiment) in the serive logs
+
+### Results
+Offline inference (from wav file)
+![image info](https://github.com/amdrozdov/asr_demo/blob/main/screenshots/offline_inference.png)
+
+Realtime inference (from mic)
+![image info](https://github.com/amdrozdov/asr_demo/blob/main/screenshots/live_stream.png)
+
+Full system (asr+sentiment realtime)
+![image info](https://github.com/amdrozdov/asr_demo/blob/main/screenshots/full_system.png)
+
